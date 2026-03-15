@@ -1,0 +1,14 @@
+package com.netflix.clone.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class VideoStatsReponse {
+    private Long totalVideos;
+    private Long publishedVideos;
+    private Long totalDuration;
+}
